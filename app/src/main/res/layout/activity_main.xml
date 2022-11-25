@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    android:padding="10dp"
+    android:background="#E1E1E1"
+    >
+    <TableRow android:background="#359F81">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Producto"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+        <TextView
+            android:text="Subtotal"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textAlignment="textStart"
+            android:layout_column="3"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Jabón de manos x 1"
+            android:textSize="16dp" />
+        <TextView
+            android:text="$2"
+            android:textAlignment="textStart"
+            android:padding="3dip"
+            android:layout_column="3"
+            android:textSize="16dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Shampoo Monster x 1"
+            android:textSize="16dp" />
+        <TextView
+            android:text="$10"
+
+            android:textAlignment="textStart"
+            android:padding="3dip"
+            android:layout_column="3"
+            android:textSize="16dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Pastas Duria x 2"
+            android:textSize="18dp" />
+        <TextView
+            android:text="$18"
+            android:textAlignment="textStart"
+            android:padding="3dip"
+            android:textSize="16dp"
+            android:layout_column="3"/>
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Detergente Limpiadin x 1"
+            android:textSize="16dp" />
+        <TextView
+            android:text="$13,4"
+            android:textAlignment="textStart"
+            android:padding="3dip"
+            android:textSize="16dp"
+            android:layout_column="3"/>
+    </TableRow>
+    <View
+        android:layout_height="3dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="Subtotal"
+            android:textColor="#359F81"
+            android:textSize="16dp"
+            android:textAlignment="textStart"/>
+        <TextView
+            android:text="$18"
+            android:textAlignment="textStart"
+            android:padding="3dip"
+            android:textSize="16dp"
+            android:layout_column="3"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="Costo de envío"
+            android:textColor="#359F81"
+            android:textSize="16dp"
+            android:textAlignment="textStart"/>
+        <TextView
+            android:text="$10"
+            android:textAlignment="textStart"
+            android:textSize="16dp"
+            android:padding="3dip"
+            android:layout_column="3"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="Cupón"
+            android:textColor="#359F81"
+            android:textSize="16dp"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:text="-$5"
+            android:textAlignment="textStart"
+            android:textSize="16dp"
+            android:padding="3dip"
+            android:layout_column="3"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="Total"
+            android:textColor="#359F81"
+            android:textSize="16dp"
+            android:textAlignment="textStart"/>
+        <TextView
+            android:text="$48,4"
+            android:textAlignment="textStart"
+            android:textSize="16dp"
+            android:padding="3dip"
+            android:layout_column="3"/>
+    </TableRow>
+</TableLayout>
